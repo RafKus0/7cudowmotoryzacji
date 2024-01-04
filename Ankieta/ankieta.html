@@ -1,0 +1,106 @@
+<!Doctype html>
+<html lang="pl">
+<head>
+    <title>7 Cudów Motoryzacji - Ankieta</title>
+    <meta charset=utf-8>
+    <link href="./style_ankieta.css" rel="stylesheet" type="text/css">
+    <link rel="shortcut icon" type="image/x-icon" href="../media/favicon.ico">
+    <link href='https://fonts.googleapis.com/css?family=Alata' rel='stylesheet'>
+</head>
+<body class="bg"> 
+        <!--Menu Główne strony-->
+    <div class="menu">
+            
+        <a href="../index.html"><div class="menu-link"><p class="menu-text">Strona Główna</p><p class="menu-text-h">1</p></div></a>
+    
+        <a href="../Gemera/gemera.html"><div class="menu-link"><p class="menu-text">Koenigsegg Gemera</p><p class="menu-text-h">2</p></div></a>
+    
+        <a href="../LFA/lfa.html"><div class="menu-link"><p class="menu-text">Lexus LFA</p><p class="menu-text-h">3</p></div></a>
+    
+        <a href="../L-350GT/l350gt.html"><div class="menu-link"><p class="menu-text">Lamborghini 350 GT</p><p class="menu-text-h">4</p></div></a>
+    
+        <a href="../M1/m1.html"><div class="menu-link-r"><p class="menu-text">BMW M1</p><p class="menu-text-h">5</p></div></a>
+    
+        <a href="../RWB/rwb.html"><div class="menu-link"><p class="menu-text">Porsche 911 RWB</p><p class="menu-text-h">6</p></div></a>
+    
+        <a href="../DeltaS4/deltas4.html"><div class="menu-link"><p class="menu-text">Lancia Delta S4 Rally</p><p class="menu-text-h">7</p></div></a>
+    
+        <a href="../Hoonicorn/hoonicorn.html"><div class="menu-link"><p class="menu-text">Hoonicorn</p><p class="menu-text-h">8</p></div></a>
+    
+        <a href="../Honorary-Mentions/mentions.html"><div class="menu-link"><p class="menu-text">Wyróżnienia</p><p class="menu-text-h">9</p></div></a>
+    
+        <a href="./ankieta.html"><div class="menu-link-r"><p class="menu-text">Ankieta</p><p class="menu-text-h">10</p></div></a>
+    </div>
+<!--Pudełko na zawartość strony-->
+        <div class="content">
+            <form action="mailto:rafal.kustra@tm1.edu.pl" method="post">
+
+				
+				<label for="imie" class="label"><span>Imię:</span></label>
+				<input type="text" id="imie" name="imie" maxlength="15" size="5">
+				<br>
+				<label for="nazwisko" class="label"><span>Nazwisko:</span></label>
+				<input type="text" id="nazwisko" name="nazwisko" maxlength="20" size="6">
+				<br>
+				<label for="wiek" class="label"><span>Ile masz lat?</span></label>
+				<input type="number" id="wiek" name="wiek" min="0" max ="100">
+		
+				<hr>
+		
+				<p class="text">Co sądzisz o tej stronie internetowej?</p>
+				<input type="radio" id="super" name="opinia" value="super" checked>
+				<label for="super" class="label"><span>Jest super</span></label>
+				<br>
+				<input type="radio" id="dobra" name="opinia" value="dobra">
+				<label for="dobra" class="label"><span>Jest dobra</span></label>
+				<br>
+				<input type="radio" id="ok" name="opinia" value="ok">
+				<label for="ok" class="label"><span>Może być</span></label>
+				<br>
+				<input type="radio" id="slaba" name="opinia" value="slaba">
+				<label for="slaba" class="label"><span>Jest słabo zrobiona</span></label>
+				<br>
+				<input type="radio" id="tragiczna" name="opinia" value="tragiczna">
+				<label for="tragiczna" class="label"><span>Jest niedopracowana i pełna błędów. TRAGICZNA.</span></label>
+
+				<hr>
+
+				<p class="text">Które zainteresowały cię najbardziej?</p>
+				<input type="checkbox" id="gemera" name="interested" value="gemera" checked>
+				<label for="gemera" class="label"><span>Koenigsegg Gemera</span></label>
+				<br>
+				<input type="checkbox" id="lfa" name="interested" value="lfa">
+				<label for="lfa" class="label"><span>Lexus LFA</span></label>
+				<br>
+				<input type="checkbox" id="l350gt" name="interested" value="l350gt">
+				<label for="l350gt" class="label"><span>Lamborghini 350 GT</span></label>
+				<br>
+                <input type="checkbox" id="m1" name="interested" value="m1">
+				<label for="m1" class="label"><span>BMW M1</span></label>
+				<br>
+                <input type="checkbox" id="rwb" name="interested" value="rwb">
+				<label for="rwb" class="label"><span>Porsche RWB</span></label>
+				<br>
+                <input type="checkbox" id="delta" name="interested" value="delta">
+				<label for="delta" class="label"><span>Lancia Delta S4</span></label>
+				<br>
+                <input type="checkbox" id="hoon" name="interested" value="hoon">
+				<label for="hoon" class="label"><span>Hoonicorn</span></label>
+				<br>
+				<hr>
+		
+				<label for="uwagi" class="label"><span class="text">Dlaczego? (Jeśli jakiś cię zainteresował)</span></label>
+				<br>
+				<br>
+				<textarea name="uwagi" id="uwagi" cols="50" rows="5" maxlength="200">Zainteresowało mnie ponieważ</textarea>
+		
+				<hr>
+		
+				<input type="reset" value="Resetuj">
+		
+				<input type="submit" value="Wyślij">
+			</form>
+        </div>
+    
+</body>
+</html>
